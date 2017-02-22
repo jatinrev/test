@@ -1,3 +1,10 @@
 abc
 
 http://stackoverflow.com/questions/420143/making-git-auto-commit
+
+
+inotifywait -q -m -e CLOSE_WRITE --format="git commit -m 'autocommit on change' %w" file.txt | sh
+
+
+
+https://dzone.com/articles/automatically-push-git-repo
